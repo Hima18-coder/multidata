@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+
+
+.navigation{
+     /* background-color: red; */
+    height:74px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: var(--font1);
+}
+
+
+
+.content{
+ 
+       height: 390px;
+       /* background-color:blue; */
+       display: flex;
+       margin-top: 32px;
+       
+}
+.content-left{
+    font-family: var(--font1);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.content-right{
+           width:50%;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+
+ }
+.content-right img {
+
+    height: 355px;
+    border: 3px solid black;
+    border-radius: 200px;
+
+}
+
+.footer{
+               
+        height:50px;
+        /* background-color: green; */
+}
+
+.Nav-left{
+            font-size: 20px;
+            display: flex;
+}
+
+.Nav-left ul li{
+         
+        list-style: none;
+        margin:0px 13px;
+        font-family: 'Roboto', sans-serif;
+       
+
+     
+}
+.Nav-left ul li:hover{
+           
+        font-weight: bolder;
+        
+     
+
+ 
+}
+.Nav-left ul li a{
+         
+    text-decoration: none;
+    color: black;
+
+ 
+}
+.Nav-left ul{
+              display: flex;
+              align-items: center;
+              margin:  0px 77px;
+}
+
+
+.homearticles{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.homearticle{
+       
+      display: flex;
+      /* border: 2px solid black; */
+      margin-top:25px;
+      
+     
+
+}
+.homearticle a{
+                 text-decoration: none;
+                 color: black;
+}
+
+.homearticle img{
+     width:300px;
+      height: 300px;
+     margin: 25px;
+}
+.articleright{
+    align-self: center;
+    padding: 0px 25px;
+}
+
+
+.homearticle2{
+       
+    display: flex;
+    /* border: 2px solid black; */
+    margin-top:25px;
+    
+   
+
+}
+
+
+.homearticle2 img{
+   width:22vw;
+    height: 34vh;
+   margin: 25px;
+}
+.articleright2{
+  align-self: center;
+  padding: 0px 25px;
+} 
+
+.logo{
+       font-size: 30px;
+       font-style: bold;
+}
+
+.articleright2 a{
+                text-decoration: none;
+                color: black;
+
+}

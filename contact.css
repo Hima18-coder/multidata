@@ -1,0 +1,59 @@
+.content{
+ 
+    height: 390px;
+    /* background-color:blue; */
+    display: flex;
+    margin-top: 32px;
+    justify-content: center;
+    
+
+    
+}
+.content img{
+     height: 500px;
+     opacity:0.3;
+     width:100%;
+    
+    }
+.contactbox{
+              border:2px solid black;
+              padding: 50px;
+              width: 250px;
+              height: 250px;
+             display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+         
+              background: url(/media/home.svg),no-repeat;
+             
+                        
+
+              
+}
+
+.contacth2{
+              margin-left: 76px;
+}
+.formbox{
+            width:252px;
+            height:52px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; 
+         
+}
+
+
+.input{
+         width:155px;
+         background-color:#efefef;
+         border-radius: 5px;
+         color:black;
+         height: 35px;
+       
+}
+.btn{
+    width:155px;
+}

@@ -1,0 +1,15 @@
+.blogpost{
+           background: hsl(29deg 100% 83%);
+           height:85vh;
+           padding: 20px;
+           width: 60vw;
+          margin:260px;
+          z-index: 2;
+          margin-top: 50px;
+          border: 2px solid black;
+          border-radius: 5px;
+}
+
+.blogpost h1{
+              margin-left:75px ;
+}
